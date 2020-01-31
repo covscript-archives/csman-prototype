@@ -1,2 +1,3 @@
-# covscript-config
-Covariant Script Configure (aka. csconf)
+# The CovStrap Project
+
+Covariant Script Bootstrap and a lot more (aka. covstrap)
