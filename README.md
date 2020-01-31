@@ -1,3 +1,4 @@
-# The CovStrap Project
+# The CovScript Manager Project
 
-Covariant Script Bootstrap and a lot more (aka. covstrap)
+The man behind Covariant Script who maintains all versions, packages and lots of trivial stuffs for programmers.
+
