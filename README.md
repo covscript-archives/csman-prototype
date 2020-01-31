@@ -4,34 +4,34 @@ The man behind Covariant Script who maintains all versions, packages and lots of
 
 **We call him `csman`.**
 
-### 语言
+### 项目约定
 
-C++ 14（与 [CovScript](https://github.com/covscript/covscript) 主项目同步）
+- 语言标准：C++ 14（与 [CovScript](https://github.com/covscript/covscript) 主项目同步）
 
-### Roadmap
+### 开发计划
 
 #### 平台
 - [ ] Windows
-    - [ ] MSVC[Experimental]
+    - [ ] MSVC [Experimental]
         - [ ] AMD64
         - [ ] i386,
         - [ ] ARM
     - [ ] MinGW-w64
-        - [ ] AMD64[Mainstream]
+        - [ ] AMD64 [Mainstream]
         - [ ] i386
 - [ ] Linux
     - [ ] GCC
-        - [ ] AMD64[Mainstream]
+        - [ ] AMD64 [Mainstream]
         - [ ] i386
         - [ ] ARM
         - [ ] MIPS
 - [ ] macOS
     - [ ] clang
-        - [ ] AMD64[Mainstream]
+        - [ ] AMD64 [Mainstream]
 
 #### 功能
 
-- [ ] 版本管理：支持安装多个CovScript版本，并支持设置默认版本  
+- [ ] 版本管理：支持安装多个 CovScript 版本，并支持设置默认版本  
     - [ ] `csman install [latest|nightly|version number] [--reinstall|--fix]`  
     - [ ] `csman uninstall [all|version number(regex)] [--clean]`  
     - [ ] `csman checkout [latest|version number]`  
@@ -45,7 +45,7 @@ C++ 14（与 [CovScript](https://github.com/covscript/covscript) 主项目同步
   - [ ] `csman config [key=value]`
 
 
-#### 附加：CovScript源定义
+#### 附加：CovScript 源定义
 
 - 根目录
     - csman.info
