@@ -32,17 +32,19 @@ The man behind Covariant Script who maintains all versions, packages and lots of
 #### 功能
 
 - [ ] 版本管理：支持安装多个 CovScript 版本，并支持设置默认版本  
-    - [ ] `csman install [latest|nightly|version number] [--reinstall|--fix]`  
-    - [ ] `csman uninstall [all|version number(regex)] [--clean]`  
-    - [ ] `csman checkout [latest|version number]`  
-    - [ ] `csman launch [latest|version number] [command]`  
+    - [ ] `csman install <latest | nightly | version> [--reinstall | --fix]`
+    - [ ] `csman uninstall <all | version-regex> [--clean]`
+    - [ ] `csman checkout <latest | version>`
+    - [ ] `csman run [-v version] <command>`
     - [ ] `csman list`
-- [ ] 扩展管理：全功能联网包管理器，支持分运行时版本进行管理  
-  - [ ] `csman require [package name] [--reinstall|--fix]`  
-  - [ ] `csman purge [package name(regex)] [--clean]`  
-  - [ ] `csman show`
-- [ ] 配置管理：命令行配置管理器  
-  - [ ] `csman config [key=value]`
+- [ ] 扩展管理：全功能联网包管理器，支持分运行时版本进行管理
+    - [ ] `csman install <package name> [--reinstall | --fix]`
+    - [ ] `csman uninstall <package name(regex)> [--clean]`
+    - [ ] `csman list`
+- [ ] 配置管理：命令行配置管理器
+    - [ ] `csman config set <key> <value>`
+    - [ ] `csman config unset <key>`
+    - [ ] `csman config get <key>`
 
 
 #### 附加：CovScript 源定义
