@@ -3,7 +3,7 @@ message(STATUS "Configuring csman-core: module root path: ${CSMAN_CORE_SOURCE_DI
 
 include_directories(include)
 
-#### Libraries
+#### sources
 set(CSMAN_CORE_SRC
         include/dummy.hpp
         src/dummy.cpp)
