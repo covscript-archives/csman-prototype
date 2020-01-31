@@ -1,0 +1,3 @@
+[submodule "third-party/mozart"]
+	path = third-party/mozart
+	url = https://github.com/covariant-institute/mozart
