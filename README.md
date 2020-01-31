@@ -7,6 +7,8 @@ The man behind Covariant Script who maintains all versions, packages and lots of
 ### 项目约定
 
 - 语言标准：C++ 14（与 [CovScript](https://github.com/covscript/covscript) 主项目同步）
+- 开发工具：任何支持 EditorConfig 的编辑器/IDE
+- 开发模式：独立开发分支 -> PR -> Code Review -> 合并到主分支
 
 ### 开发计划
 
@@ -31,7 +33,7 @@ The man behind Covariant Script who maintains all versions, packages and lots of
 
 #### 功能
 
-- [ ] 版本管理：支持安装多个 CovScript 版本，并支持设置默认版本  
+- [ ] 版本管理：支持安装多个 CovScript 版本，并支持设置默认版本
     - [ ] `csman install <latest | nightly | version> [--reinstall | --fix]`
     - [ ] `csman uninstall <all | version-regex> [--clean]`
     - [ ] `csman checkout <latest | version>`
