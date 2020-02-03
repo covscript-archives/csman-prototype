@@ -1,3 +1,6 @@
 [submodule "third-party/mozart"]
 	path = third-party/mozart
 	url = https://github.com/covariant-institute/mozart
+[submodule "third-party/curl"]
+	path = third-party/curl
+	url = https://github.com/curl/curl.git

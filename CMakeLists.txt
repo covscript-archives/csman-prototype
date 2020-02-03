@@ -31,6 +31,9 @@ endif ()
 add_subdirectory(third-party/mozart)
 include_directories(third-party/mozart)
 
+add_subdirectory(third-party/curl)
+include_directories(third-party/curl/include)
+
 add_subdirectory(csman-core)
 add_subdirectory(csman-cli)
 

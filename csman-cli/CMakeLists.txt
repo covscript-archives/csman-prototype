@@ -10,5 +10,6 @@ set(CSMAN_CLI_SRC
 
 add_executable(csman ${CSMAN_CLI_SRC})
 target_link_libraries(csman mozart++)
+target_link_libraries(csman libcurl)
 target_link_libraries(csman csman-core)
 
