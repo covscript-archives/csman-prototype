@@ -62,6 +62,11 @@ The man behind Covariant Script who maintains all versions, packages and lots of
             - Latest: [版本号]
             - Nightly: [版本号]
         - 版本号(`Master.Major.Minor.Revise`, 如`2.3.3.3`)
+            - csman.info
+                - Base Url:
+                - RTM: [发行包名]
+                - DEV: [开发包名]
+                - PKG: [扩展包名...]
             - runtime: 发行包(.csrtm)
             - develop: 开发包(.csdev)
             - package: 扩展包(.cspkg)
